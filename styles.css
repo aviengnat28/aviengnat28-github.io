@@ -7,10 +7,10 @@
     min-height: 100vh;
     width: 100%;
     /*Under here, you will be able to plug in the image in the url(in here)(So far I do not know how to properly plug the picture in here)*/
-    background-image: url(./)
-    /*background-position: center;
+    background-image: url(./images/no1redtruckbanner.png.PNG);
+    background-position: center;
     background-size: cover;
-    position: relative;*/
+    position: relative;
   }
 
   nav{
