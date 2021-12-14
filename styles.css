@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
   }
-  .header {
+
+  .header{
     min-height: 100vh;
     width: 100%;
-    /*Under here, you will be able to plug in the image in the url(in here)*/
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url();
+    /*Under here, you will be able to plug in the image in the url(in here)(So far I do not know how to properly plug the picture in here)*/
+    background-image: url(./)
+    /*background-position: center;
     background-size: cover;
-    background-position: center;
-    position: relative;
+    position: relative;*/
   }
 
   nav{
@@ -19,8 +20,10 @@
     align-items: center;
   }
 
-  nav img{
+  .MainLogo {
     width: 150px;
+    text-decoration: bold;
+    position: left;
   }
 
   nav-links{
@@ -39,5 +42,8 @@
     color: white;
     text-decoration: none;
     font-size: 13px;
-    
   }
+
+/* PROBLEMS AND PROBLEM NOTES
+from lines 10-14 I have errors due to the image not being properly plugged in.
+*/
