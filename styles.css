@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
   }
-  .header {
+
+  .header{
     min-height: 100vh;
     width: 100%;
-    /*Under here, you will be able to plug in the image in the url(in here)*/
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url();
-    background-size: cover;
+    /*Under here, you will be able to plug in the image in the url(in here)(So far I do not know how to properly plug the picture in here)*/
+    background-image: linear-gradient(rgba(168,41,33,0.1),rgba(168,41,33,0.6)),url(./images/no1redtruckbanner.PNG);
     background-position: center;
+    background-size: cover;
     position: relative;
   }
 
@@ -20,24 +21,28 @@
   }
 
   nav img{
-    width: 150px;
+    width: 350px;
+    
   }
 
-  nav-links{
+  .nav-links{
     flex: 1;
     text-align: right;
   }
 
-  nav-links ul li{
+  .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
   }
 
-  nav-links ul li a{
-    color: white;
+  .nav-links ul li a{
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 13px;
-    
   }
+
+/* PROBLEMS AND PROBLEM NOTES
+from lines 10-14 I have errors due to the image not being properly plugged in.
+*/
