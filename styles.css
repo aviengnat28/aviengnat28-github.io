@@ -230,8 +230,8 @@
 .campus-col img{
   width: 100%;
   display: block;
-  max-width: 500px;
-  max-height: 250px;
+  max-width: 550px;
+  max-height: 180px;
 }
 .middle-image{
   
@@ -280,9 +280,10 @@
   text-align: left;
 }
 .facilities-col img{
-  width: 350px;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 100%;
+  display: block;
+  max-width: 500px;
+  max-height: 250px;
   border-radius: 20px;
 }
 .facilities-col p{
