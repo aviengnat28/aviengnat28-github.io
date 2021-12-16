@@ -9,23 +9,77 @@
     <!--<link rel="stylesheet" href="/Users/javier/Desktop/Mirandastrucking.github.io/mirandastrucking.github.io/styles.css">-->
     <!--The bottom link is a redone one that I edited, making changes because maybe the problem with me not being able to put photos hoes much deeper and is maybe because soemthing is up with the css file. I did all of the edits with the CSS to the home about us and contact and still there has been no changes. I believe things that I am doing are right. Soemthing is wrong wiht the css file and i dont know what it is yet-->
     <link rel="stylesheet" href="./styles.css">
+    <!--Below is the fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
-    <section class="header">
-    <!--<img src="./images/no1redtruckbanner.PNG" class=headerimg>-->
-        <nav>
-            <a href="index.html"><img src="images/mirandatrucklogo.webp"></a>
-            <!--<a href="index.html"><img src="images//logo.png"></a>-->
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT US</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
+<section class="header">
+<!--<img src="./images/no1redtruckbanner.PNG" class=headerimg>-->
+    <nav>
+        <a href="index.html"><img src="images/mirandatrucklogo.webp"></a>
+        <!--<a href="index.html"><img src="images//logo.png"></a>-->
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
 
-    </section>
+<div class="text-box">
+    <h1>"every great business starts small"</h1>
+    <br>
+    <!--<p>Your transport needs from<br> Los Angeles, CA to Sacramento, CA</p>-->
+    <p>Miranda’s Trucking is a small business owned and operated by Javier H. Miranda, an experienced driver with over 15 years working in the transportation industry. Our goal is to help small businesses grow by providing fast and reliable transportation of inventory and goods.</p>
+    <a href="" class="hero-btn">To learn more about Miranda’s Trucking click here</a>
+</div>
+
+</section>
+
+<!-----Course----->
+
+<section class="course">
+    <h1>Mission Statement</h1>
+    <p>We strive to help small businesses grow and scale by extending the reach of their business to new locations using our transportation services.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Our Goal</h3>
+            <p></p>
+        </div>
+        <div class="course-col">
+            <h3>Our ++++</h3>
+            <p></p>
+        </div>
+        <div class="course-col">
+            <h3>Our Goal</h3>
+            <p></p>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-----JavaScript for Toggle Menu--->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function showMenu(){
+        navLinks.style.right = "-200";
+    }
+
+</script>
+
 
 </body>
 </html>
