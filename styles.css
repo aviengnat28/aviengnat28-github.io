@@ -10,7 +10,7 @@
     min-height: 100vh;
     width: 100%;
     /*Under here, you will be able to plug in the image in the url(in here)(So far I do not know how to properly plug the picture in here)*/
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(./images/sacbridge.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(./images/no1redtruckbanner.PNG);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -81,6 +81,7 @@
   .text-box h1{
     text-transform: uppercase;
     font-size: 60px;
+    color: #fff;
   }
 
   .text-box p{
@@ -229,7 +230,13 @@
 .campus-col img{
   width: 100%;
   display: block;
+  max-width: 500px;
+  max-height: 250px;
 }
+.middle-image{
+  
+}
+
 .layer{
   background: rgba(226, 0, 0,0 ,0.7);
   height: 100%;
@@ -273,8 +280,10 @@
   text-align: left;
 }
 .facilities-col img{
-  width: 100%;
-  border-radius: 10px;
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
 }
 .facilities-col p{
   padding: 0;
@@ -283,6 +292,9 @@
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
+  padding-left: 10px;
+}
+.facilities-col p h3{
 }
 
 /*----- testimonials ----*/
@@ -312,6 +324,7 @@
 .testimonials-col p{
   padding: 0;
 }
+
 .testimonials-col h3{
   margin-top: 15px;
   text-align: left;
