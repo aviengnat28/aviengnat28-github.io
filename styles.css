@@ -153,19 +153,24 @@
   /*-------   course   ------*/
 
   .course{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    background-image: linear-gradient(rgba(15, 29, 85, 0.7),rgba(4, 9, 30, 0.7)),url(./images/no3redtruckonroad.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
   }
 
   h1{
+    color: rgb(235, 224, 224);
     font-size: 36px;
     font-weight: 600;
   }
 
   p{
-    color: #777;
+    color: rgb(235, 224, 224);
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
