@@ -81,6 +81,7 @@
   .text-box h1{
     text-transform: uppercase;
     font-size: 60px;
+    font-family: 'Barlow Condensed', sans-serif;
     color: #fff;
   }
 
@@ -109,7 +110,7 @@
   .hero-btn:hover{
     border: 1px solid #f44336;
     background: #DB2F26;
-    transition: 1s;
+    transition: 0.5s;
   }
 
   nav.fa{
@@ -395,6 +396,42 @@
 .fa-heart-o{
   color: #f44336;
 }
+
+/*--------- about us page ------------*/
+
+.sub-header{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(images/sfskyscraper.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-header h1{
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #fff;
+}
+
+/*The css .sub-header below needs to be disabled for now using the comment because it adds unnecessary ehite space to the top of the page for no reason */
+/*
+.sub-header{
+  margin-bottom: 100px;
+}
+*/
+
+.about-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+
 
 /* PROBLEMS AND PROBLEM NOTES
 from lines 10-14 I have errors due to the image not being properly plugged in.
