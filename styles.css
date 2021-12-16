@@ -121,6 +121,9 @@
       text-transform: uppercase;
       font-size: 20px;
     }
+    .text-box p{
+      font-size: 50px;
+    }
     .nav-links ul li{
       display: block;
     }
@@ -151,7 +154,7 @@
 
   }    
 
-  /*-------   course   ------*/
+  /*-------   Mission Statement   ------*/
 
   .course{
     width: 80%;
@@ -295,8 +298,6 @@
   text-align: left;
   padding-left: 10px;
 }
-.facilities-col p h3{
-}
 
 /*----- testimonials ----*/
 
@@ -329,6 +330,7 @@
 .testimonials-col h3{
   margin-top: 15px;
   text-align: left;
+
 }
 .testimonials-col .fa{
   color: #f44336;
@@ -337,6 +339,15 @@
   .testimonials-col img{
     margin-left: 0px;
     margin-right: 15px;
+  }
+  .testimonials-col h3{
+    font-size: 270px;
+  }
+  .testimonials-col p{
+    font-size: 22px;
+  }
+  .testimonials h1{
+    font-size: 500px;
   }
 }
 
