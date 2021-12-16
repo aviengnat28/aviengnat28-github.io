@@ -290,6 +290,7 @@
   max-width: 500px;
   max-height: 250px;
   border-radius: 20px;
+  padding: 5px 5px;
 }
 .facilities-col p{
   padding: 0;
@@ -430,8 +431,27 @@
   padding-bottom: 50px;
 }
 
-
-
+.about-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.about-col img{
+  width: 100%;
+}
+.about-col h1{
+  padding-top: 0;
+}
+.about-col p{
+  padding: 15px 0 25px;
+}
+.red-btn{
+  border: 1px solid #f44336;
+  background: transparent;
+  color: #f44336;
+}
+.red-btn:hover{
+  color: #fff;
+}
 
 /* PROBLEMS AND PROBLEM NOTES
 from lines 10-14 I have errors due to the image not being properly plugged in.
