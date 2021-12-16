@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1280, initial-scale=1">
     <title>Miranda's Trucking</title>
     <!--This is the original link made by Javi-->
     <!--<link rel="stylesheet" href="/Users/javier/Desktop/Mirandastrucking.github.io/mirandastrucking.github.io/styles.css">-->
@@ -186,6 +186,10 @@
         navLinks.style.right = "-200";
     }
 
+    var siteWidth = 1280;
+    var scale = screen.width /siteWidth;
+
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
 </script>
 
 
