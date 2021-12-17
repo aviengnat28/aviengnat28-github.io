@@ -4,15 +4,16 @@ $vistor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'info@yourwebsite.com';
+$email_from = 'info@mirandastrucking.com';
 
 $email_subject = 'New Form Submission';
 
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
-                "Subject: $subject.\n";
+                "Subject: $subject.\n".
+                "User Message: $message.\n";
 
-$to = 'javiermiranda2601@gmail.com';
+$to = 'mirandastrucking@gmail.com';
 
 $headers = "From: $email_from \r\n";
 
@@ -20,3 +21,5 @@ mail($to,$email_subject,$email_body,$headers);
 
 header("Location: contact.html");
 ?>
+
+#skip to 12:36 of part 4 of video to understand
