@@ -37,6 +37,11 @@
 
 <!-- contact us content -->
 
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.56510690504!2d-121.58333628463734!3d38.56165007395442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA!5e0!3m2!1sen!2sus!4v1639712711017!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
 <section class="contact-us">
 
     <div class="row">
@@ -64,11 +69,11 @@
             </div>
         </div>
         <div class="contact-col">
-            <form action="">
-                <input type="text" placeholder="Enter your name" required>
-                <input type="email" placeholder="Enter email address" required>
-                <input type="text" placeholder="Enter your phone number" required>
-                <textarea rows="8" placeholder="Message" required></textarea>
+            <form action="form-handler.php">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
                 <button type="submit" class="hero-btn red-btn">Send Message</button>
             </form>>
         </div>
