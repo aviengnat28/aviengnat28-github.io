@@ -456,3 +456,34 @@
 /* PROBLEMS AND PROBLEM NOTES
 from lines 10-14 I have errors due to the image not being properly plugged in.
 */
+
+/*----- contact us page -----*/
+
+.contact-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.contact-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.contact-col img{
+  width: 100%;
+}
+.contact-col h1{
+  padding-top: 0;
+}
+.contact-col p{
+  padding: 15px 0 25px;
+}
+.red-btn{
+  border: 1px solid #f44336;
+  background: transparent;
+  color: #f44336;
+}
+.red-btn:hover{
+  color: #fff;
+}
