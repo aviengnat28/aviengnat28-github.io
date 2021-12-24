@@ -3,9 +3,9 @@ $name = $_POST['name'];
 $vistor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
-
-$email_from = 'info@mirandastrucking.com';
-
+//testing with real email
+//$email_from = 'info@mirandastrucking.com';
+$email_from = 'javiermiranda2601@gmail.com';
 $email_subject = 'New Form Submission';
 
 $email_body = "User Name: $name.\n".
